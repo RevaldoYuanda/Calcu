@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+		<div class="calculator bg-warning-subtle overflow-hidden mt-2
+		w-25 p-1 m-auto rounded-3">
+			<div class="display p-4 d-flex justify-content-end align-items-center  rounded-3  bg-success-subtle text-white fs-3 text-center w-75 m-auto mt-5 mb-5">
+				<div class="content d-flex flex-column  w-100  m-auto">
+					<div class="input w-100 text-end"></div>
+					<div class="output w-100 text-end"></div>
+				</div>
+			</div>
+			<div class="keys row text-center w-75 m-auto mb-3 gap-2 ">
+				<div data-key="clear" class="key action col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>AC</span>
+				</div>
+				<div data-key="brackets" class="key action col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>( )</span>
+				</div>
+				<div data-key="%" class="key action col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>%</span>
+				</div>
+				<div data-key="/" class="key operator col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>÷</span>
+				</div>
+				</div>
+				<div class="keys row text-center w-75 m-auto mb-3 gap-2">
+				<div data-key="7" class="key col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>7</span>
+				</div>
+				<div data-key="8" class="key col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>8</span>
+				</div>
+				<div data-key="9" class="key col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>9</span>
+				</div>
+				<div data-key="*" class="key operator col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>x</span>
+				</div>
+			</div>
+			<div class="keys row text-center w-75 m-auto mb-3  gap-2">
+				<div data-key="4" class="key col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>4</span>
+				</div>
+				<div data-key="5" class="key col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>5</span>
+				</div>
+				<div data-key="6" class="key col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>6</span>
+				</div>
+				<div data-key="-" class="key operator col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>-</span> 
+				</div>
+			</div>
+			<div class="keys row text-center w-75 m-auto mb-3  gap-2">
+				<div data-key="1" class="key col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>1</span>
+				</div>
+				<div data-key="2" class="key col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>2</span>
+				</div>
+				<div data-key="3" class="key col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>3</span>
+				</div>
+				<div data-key="+" class="key operator col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>+</span>
+				</div>
+			</div>
+			<div class="keys row text-center w-75 m-auto mb-5 gap-2">
+				<div data-key="backspace" class="key action col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>DEL</span>
+				</div>
+				<div data-key="0" class="key col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>0</span>
+				</div>
+				<div data-key="." class="key col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>.</span>
+				</div>
+				<div data-key="=" class="key operator col user-select-none border border-success-subtle rounded-3 btn btn-outline-warning text-black fs-4">
+					<span>=</span>
+				</div>
+			</div>
+		</div>
+	<script src="calculator.js"></script>
+</body>
+</html>
